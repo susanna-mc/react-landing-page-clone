@@ -17,6 +17,11 @@ const mainStyles = css`
   -webkit-font-smoothing: antialiased;
   font-family: Montserrat, Helvetica, Arial, sans-serif;
   text-decoration: none;
+
+  a {
+    text-decoration: none;
+    color: #6e6e6e;
+  }
 `;
 
 const headerStyles = css`
@@ -82,7 +87,9 @@ const headerButtonStyles = css`
   letter-spacing: 1px;
   a {
     text-decoration: none;
+    color: #fff;
   }
+
   a:hover {
     color: #fff;
     background-color: #74a345;
